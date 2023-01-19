@@ -1,0 +1,144 @@
+.section{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+
+    .feed-6{
+        flex: 9.5;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+     
+
+
+        .wrapper{
+            padding: 20px;
+
+            .feedTop{
+                width: 100%;
+                height: 80px;
+                background: #bdc3c7;
+                background: -webkit-linear-gradient(to right, #f7f8fa, #aab1b6);  
+                background: linear-gradient(to right, #ffffff, #adb5ba); 
+                border-right: 1px solid grey;
+
+                border-radius: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+
+
+
+            }
+            .feedBottom{
+                width: 100%;
+                height: 100%;
+                background: #bdc3c7;
+                background: -webkit-linear-gradient(to right, #f7f8fa, #aab1b6);
+                background: linear-gradient(to right, #ffffff, #adb5ba);
+                margin-top: 15px;
+                border-radius: 0 20px 20px 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 20px;
+
+                .paymentInputlink{
+                    width: 100%;
+                    height: 55px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    margin: 20px;
+
+
+
+                 input{
+
+                width: 88%;
+                height: 50px;
+                // margin-left: 40px;
+                border: none;
+                border-radius: 10px;
+                background-color: #e7ebee;
+
+                &:focus{
+                    outline: none;
+                }
+
+
+                 }
+                 .icon{
+                    font-size: 50px;
+                    color: rgb(35, 153, 196);
+                    // margin-left: 20px;
+                   }
+
+                }
+
+                .container{
+
+
+                    .row{
+                        margin-bottom: 20px;
+                        text-align: left;
+
+                        span{
+                            font-size: 20px;
+                        }
+
+                        input{
+                            border-radius: 5px;
+                          
+                            border: none;
+                            height: 40px;
+                            padding: 10px;
+
+                            &:focus{
+                                outline: none;
+                            }
+                     }
+                     .btn{
+                        width: 157px;
+                        height: 36px;
+                        background-color: white;
+                        color: rgb(79, 77, 77);
+                        border: 1px solid rgb(160, 157, 157);
+
+
+                    }
+                    
+                }
+                
+                
+                
+            }
+
+                .btn-1{
+                    margin-left: 30px;
+                    width: 150px;
+                    margin-bottom: 15px;
+                    background-color: rgb(35, 151, 214);
+                    border: none;
+    
+                    &:hover{
+                        opacity: 0.7;
+                    }
+                }
+            
+            
+            
+            
+        }
+
+
+
+
+            }
+         
+
+        }
+}

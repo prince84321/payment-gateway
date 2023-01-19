@@ -1,0 +1,127 @@
+.feed-1{
+    flex: 7;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+   
+
+    .wrapper{
+        padding: 20px;
+
+        .feedTop{
+            width: 100%;
+            height: 80px;
+            background: #bdc3c7; 
+            background: -webkit-linear-gradient(to right, #f7f8fa, #aab1b6); 
+            background: linear-gradient(to right, #ffffff, #adb5ba); 
+            border-right: 1px solid grey;
+        
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+
+            .feedheading{
+            flex: 0.5;
+            display: flex;
+            
+            align-items: center;
+            justify-content: flex-start;
+           
+
+            }
+            .feedDropdown{
+            flex: 0.5;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 20px;
+
+            .dropdown-1{
+                margin-right: 30px;
+            }
+
+            }
+
+        }
+        .feedBottom{
+            width: 100%;
+            height: 71vh;
+            background: #bdc3c7; 
+            background: -webkit-linear-gradient(to right, #f7f8fa, #aab1b6);
+            background: linear-gradient(to right, #ffffff, #adb5ba);
+            margin-top: 5px;
+            border-radius: 0 20px 20px 0;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            
+
+            .feedBottomcontainer{
+                width: 97%;
+                height: 120px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                
+           
+           
+
+            .feedBottomTop{
+            width: 209px;
+            height: 109px;
+            border-radius: 0 0 20px 20px;
+            border: 5px double grey;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            
+
+           
+
+            ul{
+               
+            padding: 48px;
+             
+                list-style: none;
+                li{
+                    text-align: center;
+                    .feedbottomItem{
+                        font-size: 22px;
+                       
+                      
+                    }
+                    .feedbottomIcon{
+                        font-size: 23px;
+                    }
+                    
+                    
+                }
+            }
+
+            }  
+        } 
+            .charts{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               position: absolute;
+               top: 150px;
+               width: 100%;
+            
+                
+            }
+            
+
+            }
+        }
+
+    }
+    
+ 

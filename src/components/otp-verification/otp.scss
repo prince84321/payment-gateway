@@ -1,0 +1,218 @@
+.otp{
+    width: 100vw;
+    height: 100vh;
+    background: #ced4d7; 
+    background: -webkit-linear-gradient(to bottom, #f7f8fa, #aab1b6);
+    background: linear-gradient(to bottom, #ffffff, #adb5ba);
+    display: flex;
+    overflow: auto;
+   
+
+    .wrapper-2{
+        padding: 20px;
+       
+      
+        .topbar-3{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      
+
+        h1{
+        font-size: 50px;
+        font-weight: 700;
+        margin-left: 4%;
+        margin-top: 1%;
+        font-family: 'Dosis', sans-serif;
+        color: rgb(227, 123, 85);
+         
+        
+        
+    }
+
+        }
+        
+    
+    .container{
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+
+        .left{
+            flex: 0.5;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            
+            
+
+            span{
+                
+                font-size: 25px;
+                margin-left: 50px;
+                margin-bottom: 15px;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+       .right{
+            flex: 0.5;
+            display: flex;
+
+            
+
+            .form-container{
+                height: 450px;
+                width: 100%;
+                background-color: rgb(207, 204, 204);
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+                border-radius: 20px;
+                border: 1px solid #54a0f1;
+                border-top: 10px solid #54a0f1;
+                
+                
+               h3{
+                text-align: center;
+                font-family: 'Playfair Display', serif;
+                font-size: 30px;
+                margin-top: 10px;
+                font-weight: 550;
+            }
+            span{
+                text-align: center;
+                font-family: 'Playfair Display', serif;
+                font-size: 20px;
+            }
+        }
+        .form-container2{
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 15px;
+              
+
+                .form-item{
+                    margin-bottom: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 25px;
+                    
+
+                    .item-1{
+                     width: 362px;
+                     height: 45px;
+                     border: none;
+                     background-color: rgb(234, 234, 234);
+                     border-radius: 15px;
+                     box-shadow: 3px 2px 3px fade-out($color: #4a4848, $amount: 0);
+                     &:placeholder-shown{
+                    text-align: center;
+                     }
+
+                    }
+                    .enter-otp{
+                        
+                        font-size: 25px;
+                        font-weight: 550;
+                        
+                    }
+
+                    span{
+                        
+                        font-size: 20px;
+                        
+                    }
+
+                    input{
+                        width: 328px;
+                        height: 35px;
+                        border: none;
+                        background-color: rgb(234, 234, 234);
+                        border-radius: 5px;
+
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                  
+                }
+                .otp-text{
+                    width: 200px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                   
+                    .item{
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                        border-radius: 3px;
+                        border: none;
+                        margin-bottom: 15px;
+                        background-color: rgb(246, 243, 243);
+                         &:focus{
+                            outline: none;
+                        }
+                       
+                        
+                    }
+                   
+                    
+                }
+                .anchor{
+
+                   width: 70%;
+                   height: 23px;
+                   margin-bottom: 25px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+
+                     a{
+                       
+                        font-family: 'Playfair Display', serif;
+                        font-size: 18px;
+
+                        
+                    }
+                    
+                    .resendOtp{
+                           
+                            text-decoration: none;
+                        }
+
+                }
+                .btn{
+                width: 307px;
+                height: 44px;
+                border-radius: 10px;
+                color: white;
+                background-color: #54a0f1;
+                
+                cursor: pointer;
+   
+                &:hover{
+                    opacity: 0.7;
+                }
+                 
+                    
+                
+              
+            }
+            
+            }
+            }
+           
+        }
+       
+    }
+}

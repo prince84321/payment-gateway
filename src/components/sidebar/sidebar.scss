@@ -1,0 +1,50 @@
+.sidebar{
+    flex: 2.5;
+    width: 100vw;
+    height: 100vh;
+    background: #bdc3c7; 
+    background: -webkit-linear-gradient(to right, #f7f8fa, #aab1b6);
+    background: linear-gradient(to right, #ffffff, #adb5ba);
+    border-right: 1px solid grey;
+
+   
+    
+
+    .wrapper{
+        padding: 20px;
+
+        ul{
+
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            cursor: pointer;
+            
+            li{
+                font-size: 17px;
+                font-weight: 400;
+                margin-left: 10px;
+                margin-bottom: 15px;
+                margin-top: 15px;
+
+                &:hover{
+                    font-weight: 500;
+                }
+                .links{
+                    margin: 0;
+                    padding: 0;
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+                .icon{
+                    color: #2c7bd0;
+                    margin-right: 10px;
+                    font-size: 25px;
+                }
+            }
+            
+        }
+    }
+   
+}

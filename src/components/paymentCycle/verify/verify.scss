@@ -1,0 +1,208 @@
+@import "../../../global.scss";
+.verify{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(115,144,255);
+    background: linear-gradient(0deg, rgba(115,144,255,1) 0%, rgba(255,255,255,1) 57%, rgba(115,144,255,1) 100%);
+    transition: all 0.5s ease-in-out;
+    .wrapper{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .paymentLogo{
+            width: 100%;
+            height: 13vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(240, 96, 44);
+
+
+
+            h2{
+
+            font-size: 60px;
+            font-weight: 700;
+
+            }
+
+        }
+        .main-container{
+            width: 70%;
+            height: 66vh;
+            background-color: #dde4fc;
+            margin-top: 5vh;
+            border-radius: 20px;
+            border: 1px solid $main-color;
+            border-left: 10px solid $main-color;
+            border-bottom: 10px solid $main-color;
+            display: flex;
+
+            .main-container-text{
+                flex: 0.4;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px;
+                color: rgb(66, 60, 60);
+                margin-left: 20px;
+
+
+
+                span{
+                    font-family: 'Playfair Display', serif;
+                    font-size: 25px;
+                    text-decoration: underline;
+
+                }
+                h2{
+                    font-family:'Playfair Display', serif;
+                    margin-top: 10px;
+                    font-size: 30px;
+
+                }
+                p{
+                    font-size: 20px;
+                    font-family: 'Playfair Display', serif ;
+                    text-decoration: underline;
+                    margin-bottom: 5px;
+
+                }
+                .number{
+                    text-decoration: none;
+
+                }
+
+            }
+            .second-container{
+                flex: 0.6;
+
+
+
+                .second-form-container{
+                    width: 100%;
+                    height: 60vh;
+                    background-color: #dde4fc;
+                    border-radius: 0 20px 20px 20px;
+                    -webkit-box-shadow: -15px 15px 2px 0px rgba(166,166,166,1);
+                    -moz-box-shadow: -15px 15px 2px 0px rgba(166,166,166,1);
+                     box-shadow: -15px 15px 2px 0px rgb(79, 78, 78);
+                    border-left: 3px solid $main-color;
+                    border-bottom: 3px solid $main-color;
+                    display: flex;
+                    align-items: center;
+                     justify-content: space-between;
+                    flex-direction: column;
+                    color: rgb(66, 60, 60);
+                    position: relative;
+                    padding-bottom: 70px;
+
+
+
+                    h3{
+                        font-family: 'Playfair Display', serif;
+                        font-size: 30px;
+                        text-decoration: none;
+                        padding-top: 10px;
+                    }
+                    .hr-heading{
+                        width: 18%;
+                        height: 7px;
+                        color: rgb(25, 42, 111);
+                        position: absolute;
+                        top: 32px;
+
+                    }
+
+                    p{
+                        font-size: 20px;
+                        font-family: 'Playfair Display', serif ;
+                        text-decoration: none;
+                        margin-top: 20px;
+
+                    }
+
+                    .form-container{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+                        width: 90%;
+                        height: 75%;
+
+
+                        .verifyInput{
+                            width: 60%;
+                            height: 50%;
+                            display: flex;
+                            flex-direction: column;
+
+                            align-items: flex-start;
+                            justify-content: center;
+
+
+                             .input{
+                                 width: 100%;
+                                 height: 35%;
+                                 border-radius: 10px;
+                                 border: none;
+                                 padding: 10px;
+                                 margin-bottom: 30px;
+                                 margin-top: -30px;
+                                 &:focus{
+                                    outline: none;
+                                 }
+                             }
+                             .custom-check{
+                                width: 20px;
+                                height: 20px;
+                             }
+                             .custom-label{
+                              font-family: 'Playfair Display', serif ;
+                              font-size:15px;
+
+                                
+                             }
+
+
+                        }
+
+
+
+
+                        }
+
+
+                    }
+                    .custom-btn{
+                        width: 150px;
+                    }
+
+
+                }
+
+            }
+        }
+        .email{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin-top: 20px;
+
+            .icon{
+                color: orange;
+                font-size: 30px;
+
+            }
+            span{
+
+                font-family: 'Playfair Display', serif;
+                font-size: 20px;
+                font-weight: 700px;
+
+            }
+        }
+    }

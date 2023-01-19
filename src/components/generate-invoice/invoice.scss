@@ -1,0 +1,114 @@
+.section{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+
+    .feed-9{
+        width: 100vw;
+        height: 100vh;
+        flex: 9.5;
+        background-color: white;
+        overflow: hidden;
+       
+    
+        .wrapper{
+            padding: 20px;
+    
+            .feedTop{
+                width: 100%;
+                height: 80px;
+                background: #bdc3c7; 
+                background: -webkit-linear-gradient(to right, #f7f8fa, #aab1b6);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #ffffff, #adb5ba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                border-right: 1px solid grey;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                position: relative;
+    
+                
+                
+            }
+            .feedBottom{
+                width: 100%;
+                height: 100%;
+                background: #bdc3c7; 
+                background: -webkit-linear-gradient(to right, #f7f8fa, #aab1b6);
+                background: linear-gradient(to right, #ffffff, #adb5ba);
+                margin-top: 5px;
+                border-radius: 0 20px 20px 0;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                padding-bottom: 20px;
+
+                
+
+                
+                .container{
+                    margin-top: 15px;
+                    
+                    .row{
+                        margin-bottom: 15px;
+                        text-align: left;
+                        // display: flex;
+                        // align-items: center;
+
+                        input{
+                            height: 35px;
+                            border-radius: 5px;
+                            margin-left: 10px;
+                            border: 1px solid grey;
+                            padding: 10px;
+                            align-items: flex-end;
+    
+                            &:focus{
+                                outline: none;
+                            }
+                     }
+                    
+                     .terms{
+                        // margin-left: -140px;
+
+                       input{
+                        margin-left: 30px;
+                       }
+                     }
+                     .btn{
+                        width: 157px;
+                        height: 36px;
+                        background-color: white;
+                        color: rgb(79, 77, 77);
+                        border: 1px solid rgb(160, 157, 157);
+                        
+
+                    }
+
+                }
+                
+
+                   
+                    }
+                    
+                }
+                
+               
+    
+                
+            }
+            .btn-1{
+                margin-left: 20px;
+                width: 150px;
+                margin-top: 15px;
+                background-color: rgb(35, 151, 214);
+                border: none;
+
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+    
+        }
+}

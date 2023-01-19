@@ -1,0 +1,124 @@
+
+.rightbar{
+    flex: 2.5;
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+    
+    .wrapper{
+        padding-top: 16px;
+        padding-left: 15px;
+        margin: 0;
+
+
+        .rightbarContainer{
+            width: 100%;
+            height: 590px;
+            background: #bdc3c7; 
+            background: -webkit-linear-gradient(to left, #f7f8fa, #aab1b6);
+            background: linear-gradient(to left, #ffffff, #adb5ba);
+            border-radius:  20px 0px 0px 20px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+            .rightbarTop{
+                width: 90%;
+                height: 100px;
+                background: #bdc3c7; 
+                background: -webkit-linear-gradient(to left, #f7f8fa, #aab1b6);
+                background: linear-gradient(to left, #ffffff, #adb5ba);
+                // margin-right: 0;
+                border-radius:  20px 0px 0px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                box-shadow: -4px 12px 16px 12px rgba(155,152,152,0.75);
+                -webkit-box-shadow: -4px 12px 16px 12px rgba(155,152,152,0.75);
+                -moz-box-shadow: -4px 12px 16px 12px rgba(155,152,152,0.75);
+              
+
+                h5{
+                    font-size: 18px;
+                    // margin-left: 1px;
+                    // margin-top: 0px;
+                }
+
+                .inputShare{
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-between;
+
+                    input{
+                        width: 70%;
+                        background-color: rgb(235, 236, 237);
+                        border: none;
+                        font-size: 15px;
+
+                        &:focus{
+                            outline: none;
+                        }
+                      
+                    }
+                      .icon{
+                            font-size: 20px;
+                            color: rgb(48, 150, 223);
+                            // margin-left: 10px;
+                            cursor: pointer;
+                        }
+                }
+
+            }
+            .rightbarCenter{
+                width: 90%;
+                height: 150px;
+                background: #bdc3c7; 
+                background: -webkit-linear-gradient(to left, #f7f8fa, #aab1b6);
+                background: linear-gradient(to left, #ffffff, #adb5ba);
+                // display: flex;
+                margin-right: 10%;
+                
+                box-shadow: 11px 9px 16px 12px rgba(155,152,152,0.75);
+                -webkit-box-shadow: 11px 9px 16px 12px rgba(155,152,152,0.75);
+                -moz-box-shadow: 11px 9px 16px 12px rgba(155,152,152,0.75);
+                border-radius: 0px 20px 20px 0px;
+            }
+              
+            .rightbarBottom{
+            width: 90%;
+                height: 191px;
+                background: #bdc3c7; 
+                background: -webkit-linear-gradient(to left, #f7f8fa, #aab1b6);
+                background: linear-gradient(to left, #ffffff, #adb5ba);
+                // margin-top: 377px;
+                // margin-left: -272px;
+                border-radius:  20px 0px 0px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                box-shadow: -4px 12px 16px 12px rgba(155,152,152,0.75);
+                -webkit-box-shadow: -4px 12px 16px 12px rgba(155,152,152,0.75);
+                -moz-box-shadow: -4px 12px 16px 12px rgba(155,152,152,0.75);
+
+                .rightbatBottomContent{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    span{
+                        font-size: 12px;
+                    }
+                    .icon{
+                        color: rgb(26, 136, 200);
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+    }
+}
